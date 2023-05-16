@@ -27,8 +27,8 @@ está dada por las derivadas parciales de cada una de las funciones con respecto
 
 """
 st.latex(r"""
-         \begin{Vmatrix} 
-         a & b \\ 
+         \begin{bmatrix} 
+         \dfrac{\partial f_1}{\partial x_1} & b \\ 
          c & d 
-         \end{Vmatrix}
+         \end{bmatrix}
          """)
