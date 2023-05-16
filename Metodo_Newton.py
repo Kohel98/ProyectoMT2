@@ -26,7 +26,7 @@ está dada por las derivadas parciales de cada una de las funciones con respecto
 
 
 """
-st.latex("""
+st.latex(r"""
          \begin{Vmatrix} 
          a & b \\ 
          c & d 
