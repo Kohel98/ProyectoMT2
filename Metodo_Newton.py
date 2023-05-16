@@ -56,18 +56,12 @@ st.latex(r"""
 Donde $x_i$ es el valor inicial de la raíz y $x_{i+1}$ es el punto en el cual la derivada (pendiente) interseca del eje. En esta intersección 
 $f(x_{i+1})$ por definición es igual a cero y la forma iterativa del método puede escribirse como:
 
-                         
-
 """
 
 """   $x_{i+1} = x_i - \dfrac{f(x_i)}{f'(x_i)}$ """
-
 """La forma 'simple' de la ecuación del método de Newton.
 La forma para varias ecuaciones se deriva en forma idéntica, pero a partir de la serie de Taylor para varias variables.
-Escribiendo esta ecuación en forma matricial: 
-
- 
-"""
+Escribiendo esta ecuación en forma matricial: """
 st.latex(r"""
          \begin{bmatrix} 
          f_{1 x_1} & f_{1 x_2}&... ... & f_{1 x_n} \\
