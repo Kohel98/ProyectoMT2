@@ -63,12 +63,11 @@ $f(x_{i+1})$ por definición es igual a cero y la forma iterativa del método pu
 La forma para varias ecuaciones se deriva en forma idéntica, pero a partir de la serie de Taylor para varias variables.
 Escribiendo esta ecuación en forma matricial: """
 st.latex(r"""
-         \begin{bmatrix} 
-         f_{1 x_1} & f_{1 x_2}&... ... & f_{1 x_n} \\
-          & & &\\
-         f_{2 x_1} & f_{2 x_1}&... ...  &f_{2 x_n} \\
-         ... & & & \\
-         f_{n x_1} & f_{n x_2}&... ...& f_{n x_n}
-         \end{bmatrix}
+         \begin{itemize}
+                  \item Edad de Piedra
+                  \item Edad del Cobre
+                  \item Edad del Bronce
+                  \item Edad del Hierro
+         \end{itemize}
          """)
 
