@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-st.header(":blue[Metodo de Newton(-Raphson]")
+st.header(":blue[Metodo de Newton(-Raphson)]")
 """
 El metodo de Newton es una alternativa del metodo del punto 
 fijo ya que la gran desventaja de este se consiste en obtener ecuaciones $g_i$ que converja 
