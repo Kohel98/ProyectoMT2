@@ -51,5 +51,9 @@ st.latex(r"""
          
          \end{bmatrix}
          """)
+""" El método de Newton para una variable se basa en la expansión de la serie de Taylor de primer orden:
+$f(x_{i+1}) = f(x_i) + (x_{i+1} - x_i) f'(x_i)$
+
+"""
 
 
