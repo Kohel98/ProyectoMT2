@@ -26,9 +26,9 @@ está dada por las derivadas parciales de cada una de las funciones con respecto
 
 
 """
-st.latex("""
+st.latex(r"""
          \begin{bmatrix} 
-         \dfrac{\partial f_1}{\partial x_1} & b \\ 
+         \dfrac{\partial f_1}{\partial x_1} (x_0, x_1, ..., x_n) & b \\ 
          c & d 
          \end{bmatrix}
          """)
