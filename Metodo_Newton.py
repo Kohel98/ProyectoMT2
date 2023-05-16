@@ -4,9 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-st.header(":blue[Metodo de Newton]")
+st.header(":blue[Metodo de Newton(-Raphson]")
 """
-Para poder dar una lista de opciones podemos hacer uso de st.selectbox la cual
-nos ayudara a poder dar una lista de valores para elegir. Para ello pasamos como
-argumentos la etiqueta(string), una tupla con las opciones a elegir.
+El metodo de Newton es una alternativa del metodod del punto fijo ya que este consiste en obtener ecuaciones $g_i$
 """
