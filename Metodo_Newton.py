@@ -4,9 +4,9 @@ import pandas as pd
 import numpy as np
 
 
-st.header(":blue[Metodo de Newton(-Raphson)]")
+st.title(":blue[Metodo de Newton(-Raphson)]")
 
-st.subheader("Teorema")
+st.header("Teorema")
 """
 El metodo de Newton es una alternativa del metodo del punto 
 fijo ya que la gran desventaja de este se consiste en obtener ecuaciones $g_i$ que converja 
@@ -17,5 +17,5 @@ Este metodo solo sirve para los sistemas de ecuaciones no lineales, este requier
 
 La derivada, cuando se trabaja con funciones con varias variables, se emplean las derivadas parciales. La generalización de derivada para sistemas de funciones 
 de varias variables es la matriz jacobiana.
-
+:red[_Streamlit_]
 """
