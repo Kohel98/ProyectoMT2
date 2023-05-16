@@ -19,5 +19,7 @@ La derivada, cuando se trabaja con funciones con varias variables, se emplean la
 de varias variables es la matriz jacobiana.
 
 
-:red[**Definición 1.3**]. Matriz jacobiana: 
+:red[**Definición**]. Matriz jacobiana: 
+
+Sean $f_i (x_1, x_2, ..., x_n)$ con $\leq$
 """
