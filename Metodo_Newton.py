@@ -23,10 +23,7 @@ de varias variables es la matriz jacobiana.
 
 Sean $f_i (x_1, x_2, ..., x_n)$ con $ 1 \leq i \leq n $, funciones con n variables $(x_i)$ independientes. La matriz jacobiana $J(x_1, x_2,..., x_n)$
 está dada por las derivadas parciales de cada una de las funciones con respecto a cada una de las variables: 
-\begin{Vmatrix}
-   a & b \\
-   c & d
-\end{Vmatrix}
+
 
 """
-
+st.latex("\begin{Vmatrix} a & b \\ c & d \end{Vmatrix}")
