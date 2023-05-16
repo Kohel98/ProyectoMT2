@@ -4,4 +4,4 @@ import pandas as pd
 import numpy as np
 
 
-st.header(":red[Select Box]")
+st.header(":blue[Metodo de Newton]")
