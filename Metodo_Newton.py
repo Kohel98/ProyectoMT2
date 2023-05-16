@@ -62,4 +62,10 @@ $f(x_{i+1})$ por definición es igual a cero y la forma iterativa del método pu
 
 """   $x_{i+1} = x_i - \dfrac{f(x_i)}{f'(x_i)}$ """
 
+"""La forma 'simple' de la ecuación del método de Newton.
+La forma para varias ecuaciones se deriva en forma idéntica, pero a partir de la serie de Taylor para varias variables.
+Escribiendo esta ecuación en forma matricial:
+\item pra el sistema $f_n (x_1, x_2, ..., x_n)$
+"""
+
 
