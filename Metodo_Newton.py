@@ -21,5 +21,5 @@ de varias variables es la matriz jacobiana.
 
 :red[**Definición**]. Matriz jacobiana: 
 
-Sean $f_i (x_1, x_2, ..., x_n)$ con $\leq$
+Sean $f_i (x_1, x_2, ..., x_n)$ con $ 1 \leq i \leq n $ funciones con n variables $(x_i)$
 """
