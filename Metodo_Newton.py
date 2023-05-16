@@ -68,13 +68,12 @@ Escribiendo esta ecuación en forma matricial:
 
  
 """
-st.latex(r""" 
-\begin{itemize}
-\item Para el sistema $f_n (x_1, x_2, ..., x_n)$
-\item Edad del Cobre
-\item Edad del Bronce
-\item Edad del Hierro
-\end{itemize}
-
-""")
+st.latex(r"""
+         \begin{bmatrix} 
+         f_{1 x_1} & f_{1 x_2}&... ... & f_{1 x_n} \\
+          & & &\\
+         f_{2 x_1} & f_{2 x_1}&... ...  &f_{2 x_n} \\
+         ... & & & \\
+         f_{n x_1} & f_{n x_2}&... ...& f_{n x_n}
+         """)
 
