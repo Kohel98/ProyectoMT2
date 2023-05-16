@@ -25,7 +25,8 @@ Sean $f_i (x_1, x_2, ..., x_n)$ con $ 1 \leq i \leq n $, funciones con n variabl
 está dada por las derivadas parciales de cada una de las funciones con respecto a cada una de las variables: 
 
 
-""Matriz Jacobiana (J):"
+"""
+"Matriz Jacobiana (J):"
 
 st.latex(r"""
          \begin{bmatrix} 
