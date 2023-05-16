@@ -17,5 +17,7 @@ Este metodo solo sirve para los sistemas de ecuaciones no lineales, este requier
 
 La derivada, cuando se trabaja con funciones con varias variables, se emplean las derivadas parciales. La generalización de derivada para sistemas de funciones 
 de varias variables es la matriz jacobiana.
-:red[_Streamlit_]
+
+
+:red[*Streamlit*]
 """
