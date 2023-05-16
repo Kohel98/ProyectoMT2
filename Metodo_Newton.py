@@ -19,5 +19,5 @@ La derivada, cuando se trabaja con funciones con varias variables, se emplean la
 de varias variables es la matriz jacobiana.
 
 
-:red['\033[1m' + 'Python' + '\033[0m']
+:red[**Definición**]
 """
