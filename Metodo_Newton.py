@@ -63,7 +63,7 @@ $f(x_{i+1})$ por definición es igual a cero y la forma iterativa del método pu
 La forma para varias ecuaciones se deriva en forma idéntica, pero a partir de la serie de Taylor para varias variables.
 Escribiendo esta ecuación en forma matricial: 
                   
-1.- Para el sistema se tiene: $F(X)=0$
++ Para el sistema se tiene: $F(X)=0$
 
 
 
