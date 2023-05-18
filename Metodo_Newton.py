@@ -68,12 +68,5 @@ Escribiendo esta ecuación en forma matricial:
 
 
 """
-
-
-+ Para el sistema (1.1) se tiene: $F(X)=0$
-
-+
-
-+
-
-""")
+1.- Para el sistema se tiene : F(X)=0
+"""
