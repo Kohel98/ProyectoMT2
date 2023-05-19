@@ -62,8 +62,11 @@ $f(x_{i+1})$ por definición es igual a cero y la forma iterativa del método pu
 """La forma 'simple' de la ecuación del método de Newton.
 La forma para varias ecuaciones se deriva en forma idéntica, pero a partir de la serie de Taylor para varias variables.
 Escribiendo esta ecuación en forma matricial: 
-                  
-+ Para el sistema se tiene: $F(X)=0$
+                   
++ Para el sistema $f_n(x_1, x_2,... x_n)$ se tiene: $F(X)=0$
++ Definiendo los vectores columna como $F = (f_{1}, f_{2}, ..., f_{n})^{t}, X = (x_{1}, x_{2),..., x_{n})^t$
++ La extensión del método de Newton para sistemas no lineales es : 
+                           $X^{(k+1)} = X^{(k)} - [F'(X^{(k)}$]^{-1} F(X^{(k)})$
 
 
 
