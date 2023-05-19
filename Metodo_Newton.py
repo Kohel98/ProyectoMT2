@@ -68,7 +68,7 @@ Escribiendo esta ecuación en forma matricial:
 $ F = (f_{1}, f_{2}, ..., f_{n})^{t},$ $ X = (x_{1}, x_{2}, x_{n})^{t}$
 + La extensión del método de Newton para sistemas no lineales es : \\
 $X^{(k+1)} = X^{(k)} - [F'(X^{(k)}]^{-1} F(X^{(k)})$ \\
-Donde $F'(x^{(x^{(k)})} es la matriz jacobiana: \\
+Donde $F'((x^ {(k)})$ es la matriz jacobiana: \\
 $X^{(k+1)} = X^{(K)} - J(X^{(k)})^{-1} F(X^{(k)})$
 
 
