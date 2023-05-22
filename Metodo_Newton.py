@@ -153,5 +153,5 @@ with tab1:
                   \\
                   Es importante calcular la matriz jacobiana y su inversa en cada interación. 
                   """
-          with tabl3: 
+       
                            
