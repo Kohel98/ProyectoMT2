@@ -98,11 +98,11 @@ with tab1:
                   -1.7
                   \end{bmatrix}
                   =
-                  \begin{matrix} 
-                  f_{1x} = -2x & f_{1y} = -2y \\
+                  \begin{bmatrix} 
+                  -2x & 3.4 \\
                   & \\
-                  f_{2x} = -e^{x} &  f_{2y} = -1 
+                 -2.7183 &  -1.0 
                
-                  \end{matrix}
+                  \end{bmatrix} ^{-1}
                   
                   """)
