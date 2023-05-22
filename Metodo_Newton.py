@@ -91,4 +91,11 @@ with tab1:
                   """
                   Se eligen valores iniciales para la aproximación $X^{(0)} = (1,-1.7)^{t}$ , como valor de $x_0$ y $y_0$ que se sustituyen en $X^{(k+1)} = X^{(K)} - J(X^{(k)})^{-1} F(X^{(k)})$
                   """
-         
+         st.latex(r""" X^{1} = 
+                  \begin{matrix} 
+                  1 \\
+                  \\
+                  -1.7 
+               
+                  \end{matrix}
+                  """)
