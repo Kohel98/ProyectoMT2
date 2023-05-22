@@ -66,5 +66,16 @@ with tab1:
                            + $f_{1} (x,y) = 4-x^{2} -y^{2} = 0 $ \\
                            + $f_{2} (x,y) = 1-e^{x} -y = 0 $
                   """
-                  
+                  """
+                  Se obtienen las derivadas parciales para escribir la matriz jacobiana: \\
+                  """
+                  st.latex(r"""
+                  \begin{bmatrix} 
+                  f_{1 x_1} & f_{1 x_2}&... ... & f_{1 x_n} \\
+                  & & &\\
+                  f_{2 x_1} & f_{2 x_1}&... ...  &f_{2 x_n} \\
+                  ... & & & \\
+                  f_{n x_1} & f_{n x_2}&... ...& f_{n x_n}
+                  \end{bmatrix}
+                  """)
          
