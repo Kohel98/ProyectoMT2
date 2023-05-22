@@ -154,10 +154,7 @@ with tab1:
                   Es importante calcular la matriz jacobiana y su inversa en cada interación. 
                   """
                   with tab3:
-                           # Método de Newton-Raphson
-# Ejemplo 1 (Burden ejemplo 1 p.51/pdf.61)
-
-import numpy as np
+                       
 
 # INGRESO
 fx  = lambda x: x**3 + 4*(x**2) - 10
