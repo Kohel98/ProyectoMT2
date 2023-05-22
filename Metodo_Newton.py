@@ -97,9 +97,9 @@ with tab1:
                    \\
                   -1.7
                   \end{bmatrix}
-                  =
+                  -
                   \begin{bmatrix} 
-                  -2x & 3.4 \\
+                  -2 & 3.4 \\
                   & \\
                  -2.7183 &  -1.0 
                
@@ -117,3 +117,36 @@ with tab1:
                   -1.72985
                   \end{bmatrix}
                   """)
+                  """
+                  Estos valores tienen una aproximacion optima pero aun se puede mejorar, para esto requiere otra iteracion para mejorarla. 
+                  """
+                  st.latex(r""" X^{(2)} = 
+                  \begin{bmatrix} 
+                  1.00426\\
+                   \\
+                  -1.72985
+                  \end{bmatrix}
+                  -
+                  \begin{bmatrix} 
+                  -2.00851 & 3.4597 \\
+                  & \\
+                 -2.72987 &  -1.0 
+               
+                  \end{bmatrix} ^{-1}
+                  
+                  \begin{bmatrix} 
+                  -0.0091\\
+                   \\
+                  -0.00002
+                  \end{bmatrix}
+                  =
+                  \begin{bmatrix} 
+                  1.00417\\
+                   \\
+                  -1.72963
+                  \end{bmatrix}
+                  """)
+                  """
+                  Las iteraciones se detienen cuando la norma espectral del vector $F(X)$ es menor a una tolerancia previamente establecida. \\
+                  Si se cambia el punto inicial a $X^{(0)} = (-1.5, 0.6)^{t}$ se obtiene la segunda raíz $X=(-1.816264, 0.837367) ^{t}$.
+                  """
