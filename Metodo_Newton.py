@@ -70,12 +70,10 @@ with tab1:
                   Se obtienen las derivadas parciales para escribir la matriz jacobiana: \\
                   """
                   st.latex(r"""
-                  \begin{bmatrix} 
-                  f_{1 x_1} & f_{1 x_2}&... ... & f_{1 x_n} \\
-                  & & &\\
-                  f_{2 x_1} & f_{2 x_1}&... ...  &f_{2 x_n} \\
-                  ... & & & \\
-                  f_{n x_1} & f_{n x_2}&... ...& f_{n x_n}
-                  \end{bmatrix}
+                  \begin{matrix} 
+                  f_{1x} = -2x & f_{1y} = -2y
+                  & \\
+               
+                  \end{matrix}
                   """)
          
