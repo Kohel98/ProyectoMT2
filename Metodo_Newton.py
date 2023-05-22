@@ -93,8 +93,8 @@ with tab1:
                   """
                   st.latex(r""" X^{(1)} = 
                   \begin{bmatrix} 
-                  f_{1x} = -2x & f_{1y} = -2y \\
-                  & \\
-                  f_{2x} = -e^{x} &  f_{2y} = -1
+                  1\\
+                   \\
+                  -1.7
                   \end{bmatrix}
                   """)
