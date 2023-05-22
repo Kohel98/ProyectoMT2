@@ -159,6 +159,7 @@ with tab1:
                            dfx = lambda x: 3*(x**2) + 8*x
                            x0 = 2
                            tolera = 0.001
+                           
                            # PROCEDIMIENTO
                            tabla = []
                            tramo = abs(2*tolera)
