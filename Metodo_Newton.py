@@ -18,4 +18,13 @@ with tab1:
          está dada por las derivadas parciales de cada una de las funciones con respecto a cada una de las variables: 
          """
          "Matriz Jacobiana (J):"
+         st.latex(r"""
+                  \begin{bmatrix}
+                  \dfrac{\partial f_1}{\partial x_1} (x_0, x_1, ..., x_n) & \dfrac{\partial f_1}{\partial x_2} (x_0, x_1, ..., x_n)&... ... & \dfrac{\partial f_1}{\partial x_n} (x_0, x_1, ..., x_n) \\
+                  & & &\\
+                  \dfrac{\partial f_2}{\partial x_1} (x_0, x_1, ..., x_n) & \dfrac{\partial f_2}{\partial x_2} (x_0, x_1, ..., x_n)&... ...  &\dfrac{\partial f_2}{\partial x_n} (x_0, x_1, ..., x_n) \\
+                  ... & & & \\
+                  \dfrac{\partial f_n}{\partial x_1} (x_0, x_1, ..., x_n) & \dfrac{\partial f_n}{\partial x_2} (x_0, x_1, ..., x_n)&... ...& \dfrac{\partial f_n}{\partial x_n} (x_0, x_1, ..., x_n)
+                  \end{bmatrix}
+                  """)
        
