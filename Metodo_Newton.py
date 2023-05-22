@@ -36,4 +36,9 @@ with tab1:
                   f_{n x_1} & f_{n x_2}&... ...& f_{n x_n}
                   \end{bmatrix}
                   """)
+          """ El método de Newton para una variable se basa en la expansión de la serie de Taylor de primer orden:\\
+                  $f(x_{i+1}) = f(x_i) + (x_{i+1} - x_i) f'(x_i)$\\
+                  Donde $x_i$ es el valor inicial de la raíz y $x_{i+1}$ es el punto en el cual la derivada (pendiente) interseca del eje. En esta intersección 
+                  $f(x_{i+1})$ por definición es igual a cero y la forma iterativa del método puede escribirse como:
+                  """
          
