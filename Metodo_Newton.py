@@ -59,4 +59,7 @@ with tab1:
                    dé una convergencia cuadratica, siempre y cuando se conozca un valor inicial suficiententemente preciso y exista $J(X^{k})^{-1}$ \\
                    
                    """
+         with tab2: 
+                  st.title(":blue[Ejercicio:] Sea el siguiente sistema de ecuaciones:")
+                  
          
