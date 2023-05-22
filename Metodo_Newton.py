@@ -148,5 +148,10 @@ with tab1:
                   """)
                   """
                   Las iteraciones se detienen cuando la norma espectral del vector $F(X)$ es menor a una tolerancia previamente establecida. \\
-                  Si se cambia el punto inicial a $X^{(0)} = (-1.5, 0.6)^{t}$ se obtiene la segunda raíz $X=(-1.816264, 0.837367) ^{t}$.
+                  \\
+                  Si se cambia el punto inicial a $X^{(0)} = (-1.5, 0.6)^{t}$ se obtiene la segunda raíz $X=(-1.816264, 0.837367) ^{t}$.\\
+                  \\
+                  Es importante calcular la matriz jacobiana y su inversa en cada interación. 
                   """
+          with tabl3: 
+                           
