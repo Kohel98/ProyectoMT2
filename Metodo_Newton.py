@@ -62,8 +62,9 @@ with tab1:
          with tab2: 
                   st.title(":blue[Ejercicio:]")
                   """
-                   Sea el siguiente sistema de ecuaciones:
-                           + $f_{1} (x,y) = 4-x^{2} -y^{2} = 0 $
+                   Sea el siguiente sistema de ecuaciones: \\
+                           + $f_{1} (x,y) = 4-x^{2} -y^{2} = 0 $ \\
+                           + $f_{2} (x,y) = 1-e^{x} -y = 0 $
                   """
                   
          
