@@ -95,4 +95,6 @@ with tab1:
                   \begin{matrix} 
                   f_{1x} = -2x & f_{1y} = -2y \\
                   & \\
-                  f_{2x} = -e^{x} &  f_{2y} = -1 
+                  f_{2x} = -e^{x} &  f_{2y} = -1
+                  \end{matrix}
+                  """)
