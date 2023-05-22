@@ -15,19 +15,12 @@ with tab1:
          Este metodo solo sirve para los sistemas de ecuaciones no lineales, este requiere algunos conceptos previos, los cuales se presentan a continuación.
          La derivada, cuando se trabaja con funciones con varias variables, se emplean las derivadas parciales. La generalización de derivada para sistemas de funciones 
          de varias variables es la matriz jacobiana.
-
-
-:red[**Definición**]. Matriz jacobiana: 
-
-Sean $f_i (x_1, x_2, ..., x_n)$ con $ 1 \leq i \leq n $, funciones con n variables $(x_i)$ independientes. La matriz jacobiana $J(x_1, x_2,..., x_n)$
-está dada por las derivadas parciales de cada una de las funciones con respecto a cada una de las variables: 
-
-
-"""
-"Matriz Jacobiana (J):"
-
-st.latex(r"""
-         \begin{bmatrix} 
+         :red[**Definición**]. Matriz jacobiana: Sean $f_i (x_1, x_2, ..., x_n)$ con $ 1 \leq i \leq n $, funciones con n variables $(x_i)$ independientes. La matriz jacobiana $J(x_1, x_2,..., x_n)$
+         está dada por las derivadas parciales de cada una de las funciones con respecto a cada una de las variables: 
+         """
+         "Matriz Jacobiana (J):"
+         st.latex(r"""
+         \begin{bmatrix}
          \dfrac{\partial f_1}{\partial x_1} (x_0, x_1, ..., x_n) & \dfrac{\partial f_1}{\partial x_2} (x_0, x_1, ..., x_n)&... ... & \dfrac{\partial f_1}{\partial x_n} (x_0, x_1, ..., x_n) \\
           & & &\\
          \dfrac{\partial f_2}{\partial x_1} (x_0, x_1, ..., x_n) & \dfrac{\partial f_2}{\partial x_2} (x_0, x_1, ..., x_n)&... ...  &\dfrac{\partial f_2}{\partial x_n} (x_0, x_1, ..., x_n) \\
@@ -37,8 +30,7 @@ st.latex(r"""
          
          \end{bmatrix}
          """)
-
-st.latex(r"""
+         st.latex(r"""
          \begin{bmatrix} 
          f_{1 x_1} & f_{1 x_2}&... ... & f_{1 x_n} \\
           & & &\\
