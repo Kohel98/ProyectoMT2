@@ -162,7 +162,8 @@ with tab1:
                            # PROCEDIMIENTO
                            tabla = []
                            tramo = abs(2*tolera)
-                           xi = x0while (tramo>=tolera):
+                           xi = x0
+                           while (tramo>=tolera):
                                     xnuevo = xi - fx(xi)/dfx(xi)
                                     tramo  = abs(xnuevo-xi)
                                     tabla.append([xi,xnuevo,tramo])
