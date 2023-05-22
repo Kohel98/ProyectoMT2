@@ -60,6 +60,9 @@ with tab1:
                    
                    """
          with tab2: 
-                  st.title(":blue[Ejercicio:] Sea el siguiente sistema de ecuaciones:")
+                  st.title(":blue[Ejercicio:]")
+                  """
+                   Sea el siguiente sistema de ecuaciones:
+                  """
                   
          
