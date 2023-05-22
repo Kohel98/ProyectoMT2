@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 tab1, tab2, tab3 = st.tabs(["Teoria","Ejercicio","Aplicacion"])
 with tab1:
-         st.header("Teoria")
+         
          st.title(":blue[Metodo de Newton(-Raphson)]")
          st.header("Teorema")
          """
