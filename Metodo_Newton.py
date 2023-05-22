@@ -2,7 +2,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-tab1, tab2, tab3 = st.tabs(["Teoria","Ejercicio","Aplicacion"])
+add_selectbox = st.sidebar.selecbpx(("Metodo de Newton","Metodo de Cuasi-Newton"))
+tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 with tab1:
          
          st.title(":blue[Metodo de Newton(-Raphson)]")
