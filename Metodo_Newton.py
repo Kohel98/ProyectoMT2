@@ -3,14 +3,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-# Barra lateral 
-with st.sidebar:
-         selected = option_menu(
-                  menu_tittle="Main Menu",
-                  option=["Teoria","Ejercicio","Aplicacion"],
-         )
-         
-         if selected == "Teoria":
                   st.title(":blue[Metodo de Newton(-Raphson)]")
                   st.header("Teorema")
                   """
