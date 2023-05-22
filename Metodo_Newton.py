@@ -77,4 +77,18 @@ with tab1:
                
                   \end{matrix}
                   """)
+                  """
+                  Jacobiana J(X)
+                  """
+                  st.latex(r"""
+                  \begin{matrix} 
+                  f_{1x} = -2x & f_{1y} = -2y \\
+                  & \\
+                  f_{2x} = -e^{x} &  f_{2y} = -1 
+               
+                  \end{matrix}
+                  """)
+                  """
+                  Se eligen valores iniciales para la aproximación $X^{(0)} = (1,-1.7)^{t} , como valor de $x_0$ y $y_0$ que se sustituyen en $X^{(k+1)} = X^{(K)} - J(X^{(k)})^{-1} F(X^{(k)})$$
+                  """
          
