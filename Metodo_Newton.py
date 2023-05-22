@@ -56,7 +56,7 @@ with tab1:
                    $X^{(k+1)} = X^{(K)} - J(X^{(k)})^{-1} F(X^{(k)})$ \\
                    Esta ecuación es análoga a la del método de Newton-Raphson para una ecuación, sólo que la derivada aparece en el numerador como la inversa de la matriz jacobiana.
                    La ecuacion $X^{(k+1)} = X^{(K)} - J(X^{(k)})^{-1} F(X^{(k)})$ es la representación del método de Newton-Raphson para sistemas de no lineales y generalmente se espera que 
-                   dé una convergencia cuadratica, siempre y cuando se conozca un valor inicial suficiententemente preciso y exista $J(X^{k})^{-1}$
+                   dé una convergencia cuadratica, siempre y cuando se conozca un valor inicial suficiententemente preciso y exista $J(X^{k})^{-1}$ \\
                    Aclarando unos puntos del metodo.
                    + El Metodo de Newton aplicando a un sistema de ecuaciones no lineales reduce el problema a la solución de un sistema de ecuaciones lineales (serie de Taylor) para determinar los valores que mejoran la exactitud 
                    denlas estimaciones.
