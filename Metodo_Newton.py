@@ -2,8 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
-                  st.title(":blue[Metodo de Newton(-Raphson)]")
+st.title(":blue[Metodo de Newton(-Raphson)]")
                   st.header("Teorema")
                   """
                   El metodo de Newton es una alternativa del metodo del punto 
