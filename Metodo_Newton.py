@@ -27,4 +27,13 @@ with tab1:
                   \dfrac{\partial f_n}{\partial x_1} (x_0, x_1, ..., x_n) & \dfrac{\partial f_n}{\partial x_2} (x_0, x_1, ..., x_n)&... ...& \dfrac{\partial f_n}{\partial x_n} (x_0, x_1, ..., x_n)
                   \end{bmatrix}
                   """)
+         st.latex(r"""
+                  \begin{bmatrix} 
+                  f_{1 x_1} & f_{1 x_2}&... ... & f_{1 x_n} \\
+                  & & &\\
+                  f_{2 x_1} & f_{2 x_1}&... ...  &f_{2 x_n} \\
+                  ... & & & \\
+                  f_{n x_1} & f_{n x_2}&... ...& f_{n x_n}
+                  \end{bmatrix}
+                  """)
          
