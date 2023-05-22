@@ -105,4 +105,15 @@ with tab1:
                
                   \end{bmatrix} ^{-1}
                   
+                  \begin{bmatrix} 
+                  0.1100\\
+                   \\
+                  -0.0183
+                  \end{bmatrix}
+                  =
+                  \begin{bmatrix} 
+                  1.00426\\
+                   \\
+                  -1.72985
+                  \end{bmatrix}
                   """)
