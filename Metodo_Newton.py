@@ -67,7 +67,7 @@ with tab1:
                            + $f_{2} (x,y) = 1-e^{x} -y = 0 $
                   """
                   """
-                  Se obtienen las derivadas parciales para escribir la matriz jacobiana: \\
+                  Se obtienen las derivadas parciales para escribir la matriz jacobiana: 
                   """
                   st.latex(r"""
                   \begin{matrix} 
