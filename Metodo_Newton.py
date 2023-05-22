@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-add_selectbox = st.sidebar.selecbox(
+st.sidebar.selecbox(
          " ",
          ("Metodo de Newton","Metodo de Cuasi-Newton")
 )
