@@ -5,7 +5,7 @@ import numpy as np
 add_selectbox = st.sidebar.selectbox(
          " ",("Metodo de Newton", "Metodo de Cuasi-Newton")
 )
-with st.sidebar.selectbox["Metodo de Newton"] : 
+with st.sidebar.selectbox[1] : 
           st.title(":blue[Metodo de Newton(-Raphson)]")
 
 
