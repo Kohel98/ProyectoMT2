@@ -82,7 +82,4 @@ denlas estimaciones.
 + El método de Newton tiene la ventaja de converger cuadráticamente si el vector inicial está cerca de la raíz, pero es costoso en términos 
  
 """
-if selected == "Ejercicio":
-         st.title(f"Aqui va {selected}")
-if selected == "Aplicacion":
-         st.title(f"Aqui va {selected}")
+
