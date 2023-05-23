@@ -153,31 +153,4 @@ with tab1:
                   \\
                   Es importante calcular la matriz jacobiana y su inversa en cada interación. 
                   """
-                  with tab3:
-                           x=st.text_input('DAme el valor de x:')
                   
-                           fx  = lambda x: x**3 + 4*(x**2) - 10
-                           dfx = lambda x: 3*(x**2) + 8*x
-                           x0 = 2
-                           tolera = 0.001
-                           
-                          
-                           tabla = []
-                           tramo = abs(2*tolera)
-                           xi = x0
-                           while (tramo>=tolera):
-                                    xnuevo = xi - fx(xi)/dfx(xi)
-                                    tramo  = abs(xnuevo-xi)
-                                    tabla.append([xi,xnuevo,tramo])
-                                    xi = xnuevo
-                                    
-                                    tabla = np.array(tabla)
-                                    n = len(tabla)
-                                    
-                                    print(['xi', 'xnuevo', 'tramo'])
-                                    np.set_printoptions(precision = 4)
-                                    print(tabla)
-                                    print('raiz en: ', xi)
-                                    print('con error de: ',tramo)
-       
-                           
