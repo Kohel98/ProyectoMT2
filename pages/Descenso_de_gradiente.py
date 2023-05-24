@@ -55,4 +55,11 @@ with tab2:
          """
          df=pd.read_csv('Advertising.csv')
          df.head()
+         code = """import pandas as pd
+         import numpy as np
+         import matplotlib.pyplot as plt
+         import seaborn as sn
+         df=pd.read_csv('Advertising.csv')
+         df.head() """
+         st.code(code, language='python')
       
