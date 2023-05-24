@@ -23,7 +23,7 @@ with tab1:
          Ayuda a encontrar el mínimo local de una función.
          La mejor manera de definir el mínimo local o el máximo local de una función mediante el descenso de gradiente es la siguiente:
             + Si nos movemos hacia un gradiente negativo o nos alejamos del gradiente de la función 
-            en el punto actual, dará el :red[**mínimo local **] de esa función.
+            en el punto actual, dará el :red[**mínimo local**] de esa función.
             
             +Siempre que nos desplacemos hacia un gradiente positivo o hacia el gradiente de la función 
             en el punto actual, obtendremos el :red[**máximo local**] de esa función.
