@@ -30,8 +30,10 @@ with tab1:
          Para lograr este objetivo, realiza dos pasos iterativamente:
          + Calcula la derivada de primer orden de la función para calcular el gradiente o pendiente de esa función.
          + Alejarse de la dirección del gradiente, lo que significa que la pendiente aumentó desde el punto actual en alfa veces, donde Alfa se define como Tasa de aprendizaje. 
+         
          Es un parámetro de ajuste en el proceso de optimización que ayuda a decidir el lapso del tiempo de los pasos. Un ejemplo seria cuando se grafica una gradiente negativa (pasando las coordenadas del nuevo punto) con un proceso iterativo hasta encontrar el minimo local.
-         Estos pasos se denomina como :black[**taza de aprendizaje**]. 
+         Estos pasos se denomina como **taza de aprendizaje**. 
+         
          Con una tasa de aprendizaje alta podemos cubrir más terreno en cada paso, pero corremos el riesgo de 
          sobrepasar el punto más bajo ya que la pendiente de la colina cambia constantemente.
          Con una tasa de aprendizaje muy baja, podemos movernos con confianza en la dirección del gradiente 
