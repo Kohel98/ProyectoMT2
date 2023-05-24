@@ -21,9 +21,9 @@ with tab1:
          Este se define como uno de los algoritmos de optimización iterativos de aprendizaje automático 
          más utilizados para entrenar los modelos de aprendizaje automático y aprendizaje profundo.
          Ayuda a encontrar el mínimo local de una función.
-         La mejor manera de definir el mínimo local o el máximo local de una función mediante el descenso de gradiente es la siguiente: \\
+         La mejor manera de definir el mínimo local o el máximo local de una función mediante el descenso de gradiente es la siguiente: 
              
-            + Si nos movemos hacia un gradiente negativo o nos alejamos del gradiente de la función 
+            +Si nos movemos hacia un gradiente negativo o nos alejamos del gradiente de la función 
             en el punto actual, dará el :red[**mínimo local**] de esa función.
             
             +Siempre que nos desplacemos hacia un gradiente positivo o hacia el gradiente de la función 
