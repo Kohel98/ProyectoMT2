@@ -5,7 +5,7 @@ tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 with tab1:
          st.title(":blue[Descenso de la Gradiente]")
          """
-         Gradient Descent es conocido como uno de los algoritmos de optimización más utilizados
+         Descenso de gradiente es conocido como uno de los algoritmos de optimización más utilizados
          para entrenar modelos de aprendizaje automático mediante la minimización de errores 
          entre los resultados reales y esperados.
          
@@ -46,3 +46,9 @@ with tab1:
         La pendiente de esta curvatura nos mostrara cómo actualizar nuestros parámetros para que el modelo sea más preciso.
                 
          """
+with tab2:
+         st.title(":blue[Ejemplo]")
+         """
+         
+         """
+      
