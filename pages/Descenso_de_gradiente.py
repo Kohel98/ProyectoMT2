@@ -23,5 +23,35 @@ with tab1:
          Ayuda a encontrar el mínimo local de una función.
          La mejor manera de definir el mínimo local o el máximo local de una función mediante el descenso de gradiente es la siguiente:
             + Si nos movemos hacia un gradiente negativo o nos alejamos del gradiente de la función 
-            en el punto actual, dará el :red[**mínimo local de esa función**].
+            en el punto actual, dará el :red[**mínimo local **] de esa función.
+            
+            +Siempre que nos desplacemos hacia un gradiente positivo o hacia el gradiente de la función 
+            en el punto actual, obtendremos el :red[**máximo local**] de esa función.
+            
+         Su procedimiemto consiste en  usar un algoritmo de descenso de gradiente 
+         en minimizar la función de costo usando la iteración. 
+            
+        Para lograr este objetivo, realiza dos pasos iterativamente:
+            +Calcula la derivada de primer orden de la función para calcular el gradiente o pendiente de esa función.
+            
+            +Alejarse de la dirección del gradiente, lo que significa que la pendiente aumentó desde el punto actual en alfa veces, 
+            donde Alfa se define como Tasa de aprendizaje. 
+            
+            Es un parámetro de ajuste en el proceso de optimización que ayuda 
+            a decidir el lapso del tiempo de los pasos.
+            Un ejemplo seria cuando se grafica una gradiente negativa (pasando las coordenadas del nuevo punto) 
+            con un proceso iterativo hasta encontrar el minimo local.
+            
+            Estos pasos se denomina como **taza de aprendizaje**. \\
+                 Con una tasa de aprendizaje alta podemos cubrir más terreno en cada paso, pero corremos el riesgo de 
+                 sobrepasar el punto más bajo ya que la pendiente de la colina cambia constantemente.
+                 Con una tasa de aprendizaje muy baja, podemos movernos con confianza en la dirección del gradiente 
+                 negativo ya que lo estamos recalculando con tanta frecuencia. Una tasa de aprendizaje baja es más precisa, 
+                 pero calcular el gradiente requiere mucho tiempo, por lo que nos llevará mucho tiempo llegar al fondo.
+                 
+            :red[**Función de costo**] \\
+                Con esta por medio de la función de pérdida determinamos "Qué tan bueno" es nuestro modelo para hacer 
+                predicciones para un conjunto dado de parámetros. La función de costo tiene su proria curva y sus gradientes.
+                La pendiente de esta curvatura nos mostrara cómo actualizar nuestros parámetros para que el modelo sea más preciso.
+                
          """
