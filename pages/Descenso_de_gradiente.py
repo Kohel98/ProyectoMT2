@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sn
+##Se carga archivos excel para el ejercicio 
+
+
 tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 with tab1:
          st.title(":blue[Descenso de la Gradiente]")
@@ -49,6 +54,8 @@ with tab1:
 with tab2:
          st.title(":blue[Ejemplo]")
          """
-         
+         Vamos a utilizar el conjunto de datos publicitarios. Este es un conjunto de datos que nos da las ventas totales de diferentes productos, después de comercializarlos en televisión, radio y periódicos. Se averiguara qué medio funciona mejor para las ventas y asignar pesos a todos los medios en consecuencia.
          """
+         df=pd.read_csv('Advertising.csv')
+         df.head()
       
