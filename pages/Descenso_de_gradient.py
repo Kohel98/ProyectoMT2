@@ -64,6 +64,7 @@ with tab3:
         note_input = st.text_input('Note', key='note')
     
     submitted = st.form_submit_button("Submit")
+    
     if submitted:
         st.write("Note", note_input, "stock_ticker", stock_ticker_input)
         form_callback(stock_ticker_input,note_input)
