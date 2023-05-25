@@ -47,6 +47,8 @@ with tab1:
         La pendiente de esta curvatura nos mostrara cómo actualizar nuestros parámetros para que el modelo sea más preciso.
                 
          """
+with tab2:
+    st.tittle("Algo")
          
          
 with tab3:
