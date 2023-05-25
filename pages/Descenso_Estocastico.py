@@ -4,7 +4,7 @@ import numpy as np
 
 tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 with tab1:
-    st.title(":blue[** Descenso del gradiente estocastico **]")
+    st.title(":blue[**Descenso del gradiente estocastico**]")
     st.header("Teorema")
     """
     La palabra ' estocástico ' significa un sistema o proceso vinculado con una probabilidad aleatoria. Por lo tanto, en Stochastic Gradient Descent, se
