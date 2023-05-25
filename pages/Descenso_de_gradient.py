@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 
+tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 def form_callback(data1, data2):    
     with open('notes.csv', 'a+') as f:    #Append & read mode
         f.write(f"{data1},{data2}\n")
