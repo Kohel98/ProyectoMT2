@@ -31,6 +31,11 @@ with tab1:
       
       + :blue[Menos preciso:] debido a las actualizaciones ruidosas, SGD puede no converger al mínimo global exacto y puede resultar en una solución subóptima.
       Esto se puede mitigar mediante el uso de técnicas como la programación de la tasa de aprendizaje y las actualizaciones basadas en el impulso.
+      
+      SGD es generalmente más ruidoso que el descenso de gradiente típico, generalmente se necesita una mayor cantidad de iteraciones para alcanzar los mínimos, 
+      debido a la aleatoriedad en su descenso. A pesar de que requiere una mayor cantidad de iteraciones para alcanzar los mínimos que el descenso de gradiente típico, 
+      todavía es computacionalmente mucho menos costoso que el descenso de gradiente típico. Por lo tanto, en la mayoría de los escenarios, se prefiere SGD a Batch Gradient Descent 
+      para optimizar un algoritmo de aprendizaje.
     
     """
     
