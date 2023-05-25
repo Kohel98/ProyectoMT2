@@ -47,6 +47,8 @@ with tab1:
         La pendiente de esta curvatura nos mostrara cómo actualizar nuestros parámetros para que el modelo sea más preciso.
                 
          """
+         
+         
 with tab3:
     def form_callback(data1, data2):    
         with open('notes.csv', 'a+') as f:    #Append & read mode
