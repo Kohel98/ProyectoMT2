@@ -2,11 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-
 tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 with tab1:
-         st.title(":blue[Descenso de la Gradiente]")
-         """
+     st.title(":blue[Descenso de la Gradiente]")
+     """
          Descenso de gradiente es conocido como uno de los algoritmos de optimización más utilizados
          para entrenar modelos de aprendizaje automático mediante la minimización de errores 
          entre los resultados reales y esperados.
@@ -48,43 +47,28 @@ with tab1:
         La pendiente de esta curvatura nos mostrara cómo actualizar nuestros parámetros para que el modelo sea más preciso.
                 
          """
-with tab2:
-         st.title(":blue[Ejemplo]")
-         """
-         Vamos a utilizar el conjunto de datos publicitarios. Este es un conjunto de datos que nos da las ventas totales de diferentes productos, después de comercializarlos en televisión, radio y periódicos. Se averiguara qué medio funciona mejor para las ventas y asignar pesos a todos los medios en consecuencia.
-         """
-         df = pd.read_csv('Advertising.csv')
-         @st.experimental_memo
-         def convert_df(df):
-             return df.to_csv(index=False).encode('utf-8')
-         csv = convert_df(df)
-         st.download_button("Press to Download",
-                            csv,
-                            "file.csv",
-                            "text/csv",
-                            key='download-csv')
          
-         code = """import pandas as pd
-         import numpy as np
-         import matplotlib.pyplot as plt
-         import seaborn as sn
-         df=pd.read_csv('Advertising.csv')
-         df.head() """
-         st.code(code, language='python')
+with tab2:
+    """
+    Mucho texto
+    """
+         
+         
 with tab3:
     def form_callback(data1, data2):    
-        with open('notes.csv', 'a+') as f:    
+        with open('notes.csv', 'a+') as f:    #Append & read mode
             f.write(f"{data1},{data2}\n")
-            
     with st.form(key="my_form",clear_on_submit=True):
         st.write("Enter Note")
         stock_ticker_input = st.text_input('Stock', key='ticker')
         note_input = st.text_input('Note', key='note')
         submitted = st.form_submit_button("Submit")
-        if submitted:
-            st.write("Note", note_input, "stock_ticker", stock_ticker_input)
-            form_callback(stock_ticker_input,note_input)
+    
+    if submitted:
+        st.write("Note", note_input, "stock_ticker", stock_ticker_input)
+        form_callback(stock_ticker_input,note_input)
+        
+    st.dataframe(pd.read_csv("notes.csv",names=["Stock","Note"]),height=300)
 
-st.dataframe(pd.read_csv("notes.csv",names=["Stock","Note"]),height=300)
-         
-      
+    
+    
