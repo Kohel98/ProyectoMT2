@@ -1,19 +1,21 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("dir/file.csv")
+def form_callback(data1, data2):    
+    with open('notes.csv', 'a+') as f:    #Append & read mode
+        f.write(f"{data1},{data2}\n")
 
-@st.experimental_memo
-def convert_df(df):
-   return df.to_csv(index=False).encode('utf-8')
+with st.form(key="my_form",clear_on_submit=True):
+    
+    st.write("Enter Note")
+    
+    stock_ticker_input = st.text_input('Stock', key='ticker')
+    note_input = st.text_input('Note', key='note')
+    
+    submitted = st.form_submit_button("Submit")
+    if submitted:
+        st.write("Note", note_input, "stock_ticker", stock_ticker_input)
+        form_callback(stock_ticker_input,note_input)
 
-
-csv = convert_df(df)
-
-st.download_button(
-   "Press to Download",
-   csv,
-   "file.csv",
-   "text/csv",
-   key='download-csv'
-)
+st.info(" #### Show contents of the CSV file :point_down:")
+st.dataframe(pd.read_csv("notes.csv",names=["Stock","Note"]),height=300)
