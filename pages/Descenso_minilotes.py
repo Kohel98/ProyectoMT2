@@ -6,7 +6,7 @@ tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 with tab1:
     
         
-    st.title(":red[** Descenso de gradiente de mini lotes **]")
+    st.title(":red[**Descenso de gradiente de mini lotes**]")
     st.header("Teorema")
     """
         En el aprendizaje automático, el descenso de gradiente es una técnica de optimización 
