@@ -53,6 +53,10 @@ with tab2:
          """
          Vamos a utilizar el conjunto de datos publicitarios. Este es un conjunto de datos que nos da las ventas totales de diferentes productos, después de comercializarlos en televisión, radio y periódicos. Se averiguara qué medio funciona mejor para las ventas y asignar pesos a todos los medios en consecuencia.
          """
+         import matplotlib.pyplot as plt
+         import seaborn as sn
+         df=pd.read_csv('Advertising.csv')
+         df.head()
          
          code = """import pandas as pd
          import numpy as np
