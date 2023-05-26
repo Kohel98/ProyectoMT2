@@ -1,5 +1,7 @@
 import streamlit as st
-from pages import Img
+from ProyectoMT2.py import pages
+
+
 
 image = Img.open('Image.jpg')
 
