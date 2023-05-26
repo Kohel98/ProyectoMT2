@@ -1,4 +1,5 @@
-import streamlit as st
-from st import Image
+import streamlit as st 
+from PIL import Image
+
 
 image = Image.open('Imagen.jpg')
