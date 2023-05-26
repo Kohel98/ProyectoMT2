@@ -38,4 +38,5 @@ with tab1:
         rápida y el ruido asociado con la actualización de gradiente, lo que lo convierte en un algoritmo
         más flexible y robusto.
     """
+   
   
