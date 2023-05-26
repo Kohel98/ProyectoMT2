@@ -1,5 +1,4 @@
 import streamlit as st
+from st import Image
 
-image = open('Imagen.jpg')
-
-st.image(image)
+image = Image.open('Imagen.jpg')
