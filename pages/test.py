@@ -1,8 +1,8 @@
 import streamlit as st
-from ProyectoMT2.py import pages
+from PIL import Image
 
 
 
-image = Img.open('Image.jpg')
+image = Image.open('Image.jpg')
 
 st.image(image, caption='Sunrise by the mountains')
