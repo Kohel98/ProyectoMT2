@@ -1,6 +1,6 @@
 import streamlit as st
-from PIL import Image
+from pages import Img
 
-image = Image.open('sunrise.jpg')
+image = Img.open('Image.png')
 
 st.image(image, caption='Sunrise by the mountains')
