@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from PIL import Image
+from pages import Img
 
-image = Image.open('Image.jpg')
+image = Img.open('Image.png')
 
 
 
