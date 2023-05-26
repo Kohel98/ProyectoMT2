@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+from PIL import Image
+
+image = Image.open('Image.jpg')
+
+
+
 tab1, tab2, tab3 = st.tabs(["Definiciones","Ejemplos","Aplicaciones"])
 with tab1:
     
@@ -9,7 +15,7 @@ with tab1:
     st.title(":red[**Descenso de gradiente de mini lotes**]")
     st.header("Teorema")
     """
-        En el aprendizaje automático, el descenso de gradiente es una técnica de optimización 
+        En Machine Lerning, el descenso de gradiente es una técnica de optimización 
         utilizada para calcular los parámetros del modelo (coeficientes y sesgo) para algoritmos 
         como la regresión lineal, la regresión logística, las redes neuronales, etc. 
         
@@ -26,4 +32,9 @@ with tab1:
         
         Según el tamaño del lote, las actualizaciones se pueden hacer menos ruidosas: cuanto mayor 
         sea el tamaño del lote, menos ruidosa será la actualización.
+        
+        Por lo tanto, el descenso de gradiente de mini lotes hace un compromiso entre la convergencia 
+        rápida y el ruido asociado con la actualización de gradiente, lo que lo convierte en un algoritmo
+        más flexible y robusto.
     """
+    st.image(image)
